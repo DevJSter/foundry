@@ -447,6 +447,9 @@ pub struct Config {
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub eof_version: Option<EofVersion>,
 
+    /// Timeout for transactions in seconds.
+    pub transaction_timeout: u64,
+
     /// Warnings gathered when loading the Config. See [`WarningsProvider`] for more information
     #[serde(rename = "__warnings", default, skip_serializing)]
     pub warnings: Vec<Warning>,
@@ -2139,6 +2142,7 @@ impl Default for Config {
             warnings: vec![],
             extra_args: vec![],
             eof_version: None,
+            transaction_timeout: 45,
             _non_exhaustive: (),
         }
     }
