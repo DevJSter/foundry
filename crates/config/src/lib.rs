@@ -2142,7 +2142,7 @@ impl Default for Config {
             warnings: vec![],
             extra_args: vec![],
             eof_version: None,
-            transaction_timeout: 45,
+            transaction_timeout: 120,
             _non_exhaustive: (),
         }
     }
