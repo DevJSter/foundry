@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["EIP7702_MAGIC","EIP7702_VERSION","PER_AUTH_BASE_COST","PER_EMPTY_ACCOUNT_COST"],"enum":["AuthorizationList"],"mod":["authorization_list","bytecode"],"static":["EIP7702_MAGIC_BYTES"],"struct":["Authorization","Eip7702Bytecode","RecoveredAuthorization","SignedAuthorization"],"type":["Signature"]};

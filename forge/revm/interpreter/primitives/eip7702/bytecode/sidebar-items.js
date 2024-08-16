@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["EIP7702_MAGIC","EIP7702_VERSION"],"static":["EIP7702_MAGIC_BYTES"],"struct":["Eip7702Bytecode"]};
